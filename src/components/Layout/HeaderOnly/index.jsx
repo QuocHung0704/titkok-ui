@@ -1,7 +1,7 @@
 import Header from "../component/Header";
 
 /* eslint-disable react/prop-types */
-function DefaultLayout({ children }) {
+function HeaderOnly({ children }) {
     return (
         <div>
             <Header  />
@@ -11,4 +11,4 @@ function DefaultLayout({ children }) {
         </div>
     );
 }
-export default DefaultLayout;
+export default HeaderOnly;
